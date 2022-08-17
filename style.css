@@ -1,0 +1,574 @@
+*{
+    margin:0;
+    padding: 0%;
+
+}
+
+.main{
+    scroll-behavior: smooth;
+    width: 100%;
+    margin:auto;
+    background: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    margin:auto;
+    background: white;
+    padding-top:10px; 
+}
+.navbar{
+    
+   width:1400px;
+   height:75px;
+   margin:auto;
+   display: flex;
+   justify-content: space-between;
+}
+.icon{
+   width:100%;
+   height:75px;
+}
+.logo{
+  color:black;
+  font-size:25px;
+  font-family:Roboto Slab;
+  padding-top:10px;
+}
+.menu{
+  height:70px;
+}
+ul{
+  justify-content: center;
+  display:flex;
+  float:left;
+  align-items: center;
+}
+ul li{
+    float:left;
+    list-style:none;
+    margin-left:75px;
+    margin-top:22px;
+    font-size:14px;
+  
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+}
+ul li a:hover{
+  color:orange;
+  
+}
+.search{
+    padding-top:20px
+}
+
+.middel{
+    width: 100%;
+    height: 600px;
+    margin:auto;
+    background: gray;
+    padding-top:0px;
+    position: relative;
+}
+  
+.content{
+        height: auto;
+        margin: auto;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left: 150px;
+        top: 150px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .CONTACT {
+    width: 91px;
+    height: 34px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 6px;
+    margin-left: 21px;
+    font-size: 18px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-family: 'Lucida Console';
+}
+
+.content .CONTACT:hover{
+    transition: 1s;
+    background-color: #e3d2a9;
+}
+
+.content .CONTACT a{
+    text-decoration: none;
+    color: rgba(17, 39, 133, 0.696);
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: rgb(255, 149, 10);
+}
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+.cn:hover{
+    background-color: rgb(151, 105, 230);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+ }
+ .container h2{
+    color: #ff8800;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    letter-spacing: 5px;
+ }
+ .container h2::before, .container h2::after{
+    content: "-----";
+    letter-spacing: -5px;
+    font-weight: lighter;
+    margin: 0 20px 0 10px;
+ }
+ .container .row{
+    display: flex;
+    justify-content: space-between;
+ }
+ .container .column{
+    width: 32%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+ }
+ .container .column img{
+    width: 100%;
+    height: 300px;
+ }
+ .container .column a:last-child{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 0;
+    top: 99%;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ff8800c0;
+    text-align: center;
+    padding-top: 8vw;
+    font-size: 3vw;
+    color: #ffffff;
+    text-decoration: none;
+ }
+ .container .column:hover a:last-child{
+    height: 100%;
+    top: 0;
+ } 
+ .container1{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+ }
+ .container1 h2{
+    color: #ff8800;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Times New Roman', sans-serif;
+    letter-spacing: 5px;
+ }
+ .container1 h2::before, .container h2::after{
+    content: "-----";
+    letter-spacing: -5px;
+    font-weight: lighter;
+    margin: 0 20px 0 10px;
+ }
+ .container1 .row{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+ }
+ .container1 .column{
+    width: 32%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+ }
+ .service{
+    text-align:center;
+    padding:25px 10px;
+    border-radius:5px;
+    font-size:10px;
+    cursor:pointer;
+    background:transparent;
+ }
+ .service{
+    font-size:30px;
+    margin-bottom:10px;
+    color:#502b0a;
+ }
+ .service h3{
+    font-weight:600;
+    margin-bottom:8px;
+ }
+ .service {
+    font-size: 25px;
+ }
+ .service:hover{
+    background:#c58c06;
+    color:#fff;
+    transform:scale(1.05);
+ }
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: -13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    background-color: #ff8800;
+    padding-top: 0px;
+    margin-right: 600px;
+    
+}
+.icons {
+    margin-left: 600px;
+}
+.icons a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 50%;
+
+}
+.icons ion-icon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff8800;
+}
+
+
+a{
+	color:#ff8800;
+	text-decoration:none
+}
+
+a:hover,a:focus{
+	color:#ff8800;
+	text-decoration:underline
+}
+
+a:focus,
+.btn:focus {
+	outline: none;
+}
+
+.img-responsive {
+    border: 1px solid #ddd;
+}
+
+/*-----------------------
+----- Typo Styles ------
+-------------------------*/
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	font-weight:300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.big-text{
+    font-size:58px;
+    font-weight:300;
+    line-height:62px;
+    letter-spacing:0.01em;
+    word-spacing: 0.15em;
+    text-transform:uppercase;
+}
+
+.section-title{
+    margin-top:-20px;
+    margin-bottom: 80px;
+    text-align:center;
+}
+
+/*-----------------------
+----- Layout Styles -----
+-------------------------*/
+
+.add-padding {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+/*-----------------------
+----- Color Styles ------
+-------------------------*/
+
+.bg-color1{
+    color:#fff;
+    background:#509B9E;
+}
+
+.bg-color2{
+    color:#fff;
+    background:#dd8b11;
+}
+
+.bg-color3{
+    color:#fff;
+    background:#334959;
+}
+
+.border-bottom-color2{
+    border-bottom:7px solid #ff8800;
+}
+
+.border-top-color2{
+    border-top:7px solid #ff8800;
+}
+
+.color1 .service-icon,
+.color1.service-item ul li:nth-child(2):before{
+    background:#509B9E;
+}
+
+.color1 .service-icon:after{
+    border:3px solid #509B9E;
+}
+
+.color2 .service-icon,
+.color2.service-item ul li:nth-child(2):before{
+    background:#ff8800;
+}
+
+.color2 .service-icon:after{
+    border:3px solid #ff8800;
+}
+
+.color3 .service-icon,
+.color3.service-item ul li:nth-child(2):before{
+    background:#334959;
+}
+
+.color3 .service-icon:after{
+    border:3px solid #334959;
+}
+
+/*------------------
+----- Buttons ------
+--------------------*/
+
+.btn-color1,
+.btn-color2{
+    padding: 10px 30px;
+    color:#fff;
+    font-size: 21px;
+    font-weight: 300;
+    background:#ff8800;
+    outline: none !important;
+    border-radius: 0;
+    transition: opacity .2s ease-out;
+}
+
+.btn-color1{
+    background:#509B9E;
+}
+
+.btn-color1:hover,
+.btn-color2:hover{
+    color:#fff;
+    opacity: 0.9;
+}
+
+.btn-color1:focus,
+.btn-color1:active,
+.btn-color2:focus,
+.btn-color2:active{
+    color:#fff;
+}
+
+.btn-color1 .fa,
+.btn-color2 .fa{
+    margin-right: 15px;
+}
+
+/*----------------------
+----- Contact Styles ----
+------------------------*/
+
+#contact{
+    background-image:url('../images/bg-contact.png');
+    background-repeat:no-repeat;
+    background-position:0 100%;
+    background-color: #fff;
+}
+
+#contact-form .form-group label{
+    display:none;
+    font-size:18px;
+    line-height:24px;
+    font-weight:100;
+    text-transform:uppercase;
+}
+
+#contact-form.no-placeholder .form-group label{
+    display:block;
+}
+
+#contact-form .controls {
+    padding:0;
+    margin-bottom:30px;
+    border:1px solid #ddd;
+    border-radius:2px;
+}
+
+#contact-form .form-control {
+    background:transparent !important;
+    border:none;
+    border-bottom:3px solid transparent;
+    border-radius:0;
+    outline:none;
+    box-shadow:none;
+    height:56px;
+    font-size:21px;
+    line-height:32px;
+    font-weight:100;
+    padding-left:64px;
+    -webkit-transition:border-color .3s ease-out;
+    transition:border-color .3s ease-out;
+    border-radius:2px;
+}
+
+#contact-form .form-group{
+    position:relative;
+}
+
+#contact-form .form-group [class*=fa] {
+    display:block;
+    width:64px;
+    position:absolute;
+    top:0;
+    left:5px;
+    color:#e5e5e5;
+    font-size:24px;
+    line-height:53px;
+    text-align:center;
+    font-weight:300;
+    opacity:0.5;
+    transition:opacity .2s ease-out;
+}
+
+#contact-form.no-placeholder .form-group [class*=fa]{
+    top:30px;
+}
+
+#contact-form .form-control:focus + [class*=fa]{
+    opacity:1;
+}
+
+#contact-form textarea.form-control {
+    height:auto;
+    max-width:100%;
+    min-width:100%;
+    font-size:21px;
+    line-height:32px;
+    padding-top:10px;
+}
+
+#contact-form .form-control:focus {
+    background:#fff;
+    border-bottom:3px solid #ff8800;
+    outline:none;
+    box-shadow:none;
+    -webkit-transition:border-color .3s ease-in;
+    transition:border-color .3s ease-in;
+}
+
+#contact-form .error-message {
+    padding:5px 0;
+    position:absolute;
+    top:-30px;
+    right:0;
+    font-size:14px;
+    font-weight:300;
+    color:#ff0000;
+    z-index:10;
+}
+
+#contact-form .error-message:before {
+    content:"\00d7";
+    font-size: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+}
+
+/*----------------------
+----- Footer Styles ----
+------------------------*/
+
+#main-footer {
+    background: #fff;
+}
+
+#main-footer p a {
+    padding-bottom: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#main-footer p {
+    text-align: center; 
+}
+
